@@ -1,7 +1,7 @@
 
 # Deplay a routable database of the Norwegian road network
 
-This repository is meant as a starting point for developing routing services on the Norwegian road network. THe road network is downloaded from the official site at Geo-Norge, which is updated at about a monthly basis.
+This repository is meant as a starting point for developing routing services on the Norwegian road network. The road network is downloaded from the official site at Geo-Norge, which is updated at about a monthly basis.
 
 To use this repository the following is needed:
 * Postgres database with pgrouting and postgis
