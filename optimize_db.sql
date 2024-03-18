@@ -1,0 +1,3 @@
+CREATE INDEX ruttger_link_geom_tonode_idx on ruttger_link_geom(tonode);
+CREATE INDEX ruttger_link_geom_fromnode_idx on ruttger_link_geom(fromnode);
+CLUSTER ruttger_link_geom USING ruttger_link_geom_shape_geom_idx;
